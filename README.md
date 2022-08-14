@@ -2,6 +2,9 @@
 
 This project is a flawed implementation of gradient descent for multi feature Linear Regression Models using numpy. This example uses [This dataset here](https://www.kaggle.com/datasets/shree1992/housedata) to create a prediction for house prices (y) respectfully for each feature (e.g. bedrooms, bathrooms, sqft...) (x). This implementation includes Feature Normalization and Feature Regularization with non-linear features.
 
+# Shortcomings
+The polynominal regression model does not seem to create any usable results.
+
 # Dependencies:
 - Python 3.X
 - `pip install numpy matplotlib pandas`
